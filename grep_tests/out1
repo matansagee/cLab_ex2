@@ -1,0 +1,48 @@
+hello world how are you
+hello 
+matan sagi
+nessy tawil
+bla bla
+bla bla bla
+row 7
+row 8
+hello world how are you
+matan sagi
+nessy tawil
+bla bla
+bla bla bla
+row 15
+15
+row 16
+OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out12  
+./mygrep -b -x hello One.txt-A | diff ~matansagi/c_lab/ex2/tests/out12 - 
+./mygrep -b -x hello OneLine.txt-A | diff ~matansagi/c_lab/ex2/tests/out12 -  
+echo test13;
+grep -b hello One.txt-B 	> ~matansagi/c_lab/ex2/tests/out13
+grep -b hello OneLine.txt-B 	> ~matansagi/c_lab/ex2/tests/out13
+./mygrep -b hello One.txt-C | diff ~matansagi/c_lab/ex2/tests/out13 -
+./mygrep -b hello OneLine.txt-C | diff ~matansagi/c_lab/ex2/tests/out13 -
+echo test1
+;
+grep -b -c hello One.txt-D 	> ~matansagi/c_lab/ex2/tests/out14
+grep -b -c hello OneLine.txt-D 	> ~matansagi/c_lab/ex2/tests/out14
+./mygrep -b -c hello One.txt-E | diff ~matansagi/c_lab/ex2/tests/out14 -
+./mygrep -b -c hello OneLine.txt-E | diff ~matansagi/c_lab/ex2/tests/out14 -
+echo test15;
+grep -b -c -v hello One.txt-F > ~matansagi/c_lab/ex2/tests/out15
+grep -b -c -v hello OneLine.txt-F > ~matansagi/c_lab/ex2/tests/out15
+./mygrep -b -c -v hello One.txt-G | diff ~matansagi/c_lab/ex2/tests/out15 -
+./mygrep -b -c -v hello OneLine.txt-G | diff ~matansagi/c_lab/ex2/tests/out15 -
+echo test16;
+kkkkkkk
+grep -b -n -v hello One.txt-H
+grep -b -n -v hello OneLine.txt-H
+
+
+
+
+
+
+
+
+

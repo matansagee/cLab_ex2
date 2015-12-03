@@ -1,0 +1,38 @@
+2:hello
+3:matan sagi
+4:nessy tawil
+5:bla bla
+6:bla bla bla
+7:row 7
+8:row 8
+10:hello
+11:matan sagi
+12:nessy tawil
+13:bla bla
+14:bla bla bla
+15:row 15
+16:row 16
+17:OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out12  
+18:./mygrep -b -x hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out12 -  
+19:echo test13;
+20:grep -b hello OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out13
+21:./mygrep -b hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out13 -
+22:echo test1
+23:;
+24:grep -b -c hello OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out14
+25:./mygrep -b -c hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out14 -
+26:echo test15;
+27:grep -b -c -v hello OneLine.txt > ~matansagi/c_lab/ex2/tests/out15
+28:./mygrep -b -c -v hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out15 -
+29:echo test16;
+30:kkkkkkk
+31:grep -b -n -v hello OneLine.txt
+32:
+33:
+34:
+35:
+36:
+37:
+38:
+39:
+40:

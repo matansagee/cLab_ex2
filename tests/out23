@@ -1,0 +1,23 @@
+0:hello world how are you
+24:hello
+30-matan sagi
+--
+85:hello world how are you
+109:hello
+115-matan sagi
+--
+222:./mygrep -b -x hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out12 -  
+299-echo test13;
+312:grep -b hello OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out13
+374:./mygrep -b hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out13 -
+446-echo test1
+--
+459:grep -b -c hello OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out14
+524:./mygrep -b -c hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out14 -
+599-echo test15;
+612:grep -b -c -v hello OneLine.txt > ~matansagi/c_lab/ex2/tests/out15
+679:./mygrep -b -c -v hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out15 -
+757-echo test16;
+--
+778:grep -b -n -v hello OneLine.txt
+810-

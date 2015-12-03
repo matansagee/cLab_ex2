@@ -1,0 +1,38 @@
+hello world how are you
+matan sagi
+nessy tawil
+bla bla
+bla bla bla
+row 7
+row 8
+hello world how are you
+matan sagi
+nessy tawil
+bla bla
+bla bla bla
+row 15
+row 16
+OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out12  
+./mygrep -b -x hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out12 -  
+echo test13;
+grep -b hello OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out13
+./mygrep -b hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out13 -
+echo test1
+;
+grep -b -c hello OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out14
+./mygrep -b -c hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out14 -
+echo test15;
+grep -b -c -v hello OneLine.txt > ~matansagi/c_lab/ex2/tests/out15
+./mygrep -b -c -v hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out15 -
+echo test16;
+kkkkkkk
+grep -b -n -v hello OneLine.txt
+
+
+
+
+
+
+
+
+

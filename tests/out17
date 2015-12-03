@@ -1,0 +1,12 @@
+1:0:hello world how are you
+2:24:hello
+9:85:hello world how are you
+10:109:hello
+18:222:./mygrep -b -x hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out12 -  
+20:312:grep -b hello OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out13
+21:374:./mygrep -b hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out13 -
+24:459:grep -b -c hello OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out14
+25:524:./mygrep -b -c hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out14 -
+27:612:grep -b -c -v hello OneLine.txt > ~matansagi/c_lab/ex2/tests/out15
+28:679:./mygrep -b -c -v hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out15 -
+31:778:grep -b -n -v hello OneLine.txt

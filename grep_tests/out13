@@ -1,0 +1,20 @@
+0:hello world how are you
+24:hello 
+86:hello world how are you
+110:hello
+226:./mygrep -b -x hello One.txt-A | diff ~matansagi/c_lab/ex2/tests/out12 - 
+300:./mygrep -b -x hello OneLine.txt-A | diff ~matansagi/c_lab/ex2/tests/out12 -  
+392:grep -b hello One.txt-B 	> ~matansagi/c_lab/ex2/tests/out13
+452:grep -b hello OneLine.txt-B 	> ~matansagi/c_lab/ex2/tests/out13
+516:./mygrep -b hello One.txt-C | diff ~matansagi/c_lab/ex2/tests/out13 -
+586:./mygrep -b hello OneLine.txt-C | diff ~matansagi/c_lab/ex2/tests/out13 -
+673:grep -b -c hello One.txt-D 	> ~matansagi/c_lab/ex2/tests/out14
+736:grep -b -c hello OneLine.txt-D 	> ~matansagi/c_lab/ex2/tests/out14
+803:./mygrep -b -c hello One.txt-E | diff ~matansagi/c_lab/ex2/tests/out14 -
+876:./mygrep -b -c hello OneLine.txt-E | diff ~matansagi/c_lab/ex2/tests/out14 -
+966:grep -b -c -v hello One.txt-F > ~matansagi/c_lab/ex2/tests/out15
+1031:grep -b -c -v hello OneLine.txt-F > ~matansagi/c_lab/ex2/tests/out15
+1100:./mygrep -b -c -v hello One.txt-G | diff ~matansagi/c_lab/ex2/tests/out15 -
+1176:./mygrep -b -c -v hello OneLine.txt-G | diff ~matansagi/c_lab/ex2/tests/out15 -
+1277:grep -b -n -v hello One.txt-H
+1307:grep -b -n -v hello OneLine.txt-H

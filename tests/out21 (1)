@@ -1,0 +1,40 @@
+0:hello world how are you
+24-hello
+30:matan sagi
+41:nessy tawil
+53:bla bla
+61:bla bla bla
+73:row 7
+79:row 8
+85:hello world how are you
+109-hello
+115:matan sagi
+126:nessy tawil
+138:bla bla
+146:bla bla bla
+158:row 15
+165:row 16
+172:OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out12  
+222:./mygrep -b -x hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out12 -  
+299:echo test13;
+312:grep -b hello OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out13
+374:./mygrep -b hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out13 -
+446:echo test1
+457:;
+459:grep -b -c hello OneLine.txt 	> ~matansagi/c_lab/ex2/tests/out14
+524:./mygrep -b -c hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out14 -
+599:echo test15;
+612:grep -b -c -v hello OneLine.txt > ~matansagi/c_lab/ex2/tests/out15
+679:./mygrep -b -c -v hello OneLine.txt | diff ~matansagi/c_lab/ex2/tests/out15 -
+757:echo test16;
+770:kkkkkkk
+778:grep -b -n -v hello OneLine.txt
+810:
+811:
+812:
+813:
+814:
+815:
+816:
+817:
+818:
